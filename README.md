@@ -16,7 +16,7 @@ Stwórz system symulujący pracę kilku czujników (np. temperatury, wilgotnośc
 
 **Komunikacja sieciowa:** Realizacja prostego serwera-klienta wykorzystującego gniazda (sockets) do przesyłania danych z czujników na odległy terminal lub aplikację.
 
-**GUI:** Implementacja interfejsu graficznego (np. przy użyciu Tkinter), który pozwoli na uruchomienie symulacji, podgląd odczytów oraz sterowanie pracą systemu.
+**GUI:** Implementacja interfejsu graficznego (przy użyciu Tkinter), który pozwoli na uruchomienie symulacji, podgląd odczytów oraz sterowanie pracą systemu.
 
 **Analiza i wizualizacja danych:** Przygotowanie Jupyter Notebooka, w którym dane z czujników zostaną zanalizowane przy użyciu Numpy, Scipy, Matplotlib oraz Pandas, a wyniki zaprezentowane graficznie.
 
@@ -36,7 +36,10 @@ Stwórz system symulujący pracę kilku czujników (np. temperatury, wilgotnośc
     Moduł interfejsu graficznego:
     Prosty GUI umożliwiający włączenie/wyłączenie symulacji, podgląd aktualnych danych oraz konfigurację ustawień czujników.
 
-## Jeśli wybierzesz ten projekt powinieneś zrobić forka tego repozytorium na swoim koncie i commitować kolejne postępy:
+## Jeśli wybierzesz ten projekt powinieneś:
+
+- zrobić forka tego repozytorium na swoim koncie i commitować kolejne postępy,
+- rozpocząć od implementacji modułu czujników, do którego wymagania opisane są w pliku sensors.md, wymagania do kolejnych modułów pojawią się na kolejnych laboratoriach.
 
 ### Struktura gałęzi
 
