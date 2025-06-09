@@ -1,6 +1,6 @@
 import random
 import time
-from base_sensor import Sensor
+from sensors.base_sensor import Sensor
 
 class HumiditySensor(Sensor):
     def __init__(self, sensor_id, frequency=1):

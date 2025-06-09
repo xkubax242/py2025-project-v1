@@ -1,4 +1,4 @@
-from base_sensor import Sensor
+from sensors.base_sensor import Sensor
 import math
 import time
 import random

@@ -1,7 +1,7 @@
 import random
 import time
 import math
-from base_sensor import Sensor
+from sensors.base_sensor import Sensor
 
 class LightSensor(Sensor):
     def __init__(self, sensor_id, frequency=1):
